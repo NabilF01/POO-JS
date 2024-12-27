@@ -15,6 +15,10 @@
 ```js
 
 class Voiture {
+    marque;
+    modele;
+    annee;
+    couleur;
     constructor(marque, modele, annee, couleur) {
         this.marque = marque;
         this.modele = modele;
