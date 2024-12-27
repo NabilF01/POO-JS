@@ -32,7 +32,7 @@ class Voiture extends Vehicule {
         this.couleur = couleur;
     }
     afficherDetails() {
-        return `La voiture est un(e) ${this.marque} qui a pour modèle ${this.modele} sorti(e) en année ${this.annee} de couleur ${this.couleur}.`;
+        return `La voiture est une ${this.marque} qui a pour modèle ${this.modele} sortie en année ${this.annee} de couleur ${this.couleur}.`;
     }
 }
 
